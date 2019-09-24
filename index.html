@@ -7,6 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
 
     <title>Hello, world!</title>
   </head>
@@ -17,38 +18,100 @@
 		</div>
 	</div>
 	<div class="container">
-		<div class="row">
-			<div class="col-sm-12 col-md-12">
+		<div class="d-flex flex-wrap">
+			<div class="col-sm-12 col-md-4">
 				<h3>Comodidad</h3>
 				<p class="text-justify">Para nosotros es muy importante que te sientas 100% satisfecho durante el estadio, por lo cual contamos con excelentes servicios de habitación, para toda la familia.</p>
 			</div>
-			<div class="col-sm-12 col-md-12">
+			<div class="col-sm-12 col-md-4">
 				<h3>Reservaciones rápidas y flexibles.</h3>
 				<p class="text-justify">Realiza las reservaciones desde la comunidad de tu hogar, en el trabajo, en el transporte o a cualquier hora del día. Contamos con aplicaciones web y móviles con disponibilidad 24 horas, para que reserves de forma fácil y rápida, sin complicaciones.</p>
 			</div>
-			<div class="col-sm-12 col-md-12">
+			<div class="col-sm-12 col-md-4">
 				<h3>Deporte y entretenimiento.</h3>
 				<p class="text-justify">¿No tienes mucho que hacer? También contamos con piscinas, salón de yoga con entrenadores los cuales estarán disponibles para hacer más agradable tu estadio, patio de juegos para los pequeños y campos de baloncesto.</p>
 			</div>
 		</div><hr>
-		<div class="row">
-			<div class="col-sm-12 col-md-4 mb-3">
-				<h3>Hotel Bethel</h3>
-				<p class="text-justify">Ubicado en el desierto de la Tatacoa, uno de los mejores sitios para observar las estrellas en américa latina. Este hotel se encuentra a mitad de grandes atractivos turísticos, pero también el mismo lo es. Posee estructuras talladas en madera, siendo una estructura hermosa para apreciar, sin contar con la excelente atención de su personal.</p>
-				<a class="btn btn-info btn-raised" href="http://www.betheltatacoaoficial.com/hotel-bethel-desierto-tatacoa" target="_blank">Ir al sitio</a>
+		<div class="d-flex flex-wrap flex-row-reverse">
+			<div class="card-hotel d-flex flex-column justify-content-between">
+				<div>
+					<h3>Hostel Dunas</h3>
+					<p class="text-justify">Con sus pequeñas y coloridas casas, es uno de los sitios más originales y estupendos para visitar.</p>
+				</div>
+				<div>
+					<a class="btn btn-info btn-reserva" href="https://web.facebook.com/dunastatacoa/?_rdc=1&_rdr" target="_blank">Reservar</a>
+				</div>
 			</div>
-			<div class="col-sm-12 col-md-4 mb-3">
-				<h3>Hostel Dunas</h3>
-				<p class="text-justify">Con sus pequeñas y coloridas casas, es uno de los sitios más originales y estupendos para visitar. Se ofrecen habitaciones individuales, familiares o también servicio de camping, para dormir bajo las estrellas y la vía láctea. Se encuentra ubicado a 5km del municipio de villavieja en el departamento del Huila, Colombia.</p>
-				<a class="btn btn-info btn-raised" href="https://web.facebook.com/dunastatacoa/?_rdc=1&_rdr" target="_blank">Ir al sitio</a>
+			<div class="card-hotel d-flex flex-column justify-content-between">
+				<div>
+					<h3>Hotel Bethel</h3>
+					<p class="text-justify">Ubicado en el desierto de la Tatacoa, uno de los mejores sitios para observar las estrellas en américa latina.</p>
+				</div>
+				<div>
+					<a class="btn btn-info btn-reserva" href="http://www.betheltatacoaoficial.com/hotel-bethel-desierto-tatacoa" target="_blank">Reservar</a>
+				</div>
 			</div>
-			<div class="col-sm-12 col-md-4 mb-3">
-				<h3>Hotel Masaya</h3>
-				<p class="text-justify">Entre vistas imponentes y ubicado entre las cordilleras central y oriental de los andes, se encuentre este hospedaje que cuenta con una estructura en forma de chozas, hecha en madera y guadua. Cuenta con servicio de restaurante, bar y también se prestan servicios para practicar deportes extremos, si lo que deseas es un poco de adrenalina.</p>
-				<a class="btn btn-info btn-raised" href="https://www.masaya-experience.com/san-agustin/" target="_blank">Ir al sitio</a>
+			<div class="card-hotel d-flex flex-column justify-content-between">
+				<div>
+					<h3>Hotel Masaya</h3>
+					<p class="text-justify">Entre vistas imponentes y ubicado entre las cordilleras central y oriental de los andes, se encuentre este hospedaje que cuenta con una estructura en forma de chozas, hecha en madera y guadua.</p>
+				</div>
+				<div>
+					<a class="btn btn-info btn-reserva" href="https://www.masaya-experience.com/san-agustin/" target="_blank">Reservar</a>
+				</div>
+			</div>
+			<div class="card-hotel d-flex flex-column justify-content-between">
+				<div>
+					<h3>Hotel México</h3>
+					<p class="text-justify">Hotel ubicado en ciudad de México.</p>
+				</div>
+				<div>
+					<a class="btn btn-info btn-reserva" href="https://www.masaya-experience.com/san-agustin/" target="_blank">Reservar</a>
+				</div>
+			</div>
+			<div class="card-hotel d-flex flex-column justify-content-between">
+				<div>
+					<h3>Hotel Pastuso</h3>
+					<p class="text-justify">Hotel ubicado en ciudad Pato, Nariño.</p>
+				</div>
+				<div>
+					<a class="btn btn-info btn-reserva" href="https://www.masaya-experience.com/san-agustin/" target="_blank">Reservar</a>
+				</div>
+			</div>
+			<div class="card-hotel d-flex flex-column justify-content-between">
+				<div>
+					<h3>Hotel Escorial</h3>
+					<p class="text-justify">Hotel que podemos encontrar en las ciudades de Neiva, Pitalito e Ibagué, con un servicio muy económico.</p>
+				</div>
+				<div>
+					<a class="btn btn-info btn-reserva" href="https://www.masaya-experience.com/san-agustin/" target="_blank">Reservar</a>
+				</div>
 			</div>
 		</div>
 	</div>
+	<footer class="mt-2">
+		<div class="row col-md-12">
+			<div class="col-sm-4 d-flex flex-column">
+				<a href="https://www.facebook.com">Facebook</a>
+				<a href="https://www.instagram.com">Instagram</a>
+				<a href="https://twitter.com">Twitter</a>
+			</div>
+			<div class="col-sm-4">
+				<address>
+					<h3>Oficiona Central</h3>
+					<p>Calle 123 #9-20, Bogotá, Colombia.</p>
+					<p>(+57) 315 333 4444</p>
+					<p>contacto@gmail.com</p>
+				</address>
+			</div>
+			<div class="col-sm-4 d-flex flex-column align-items-end">
+				<a href="https://www.facebook.com">Nosotros</a>
+				<a href="https://www.instagram.com">Precios</a>
+				<a href="https://twitter.com">Términos y condiciones</a>
+				<a href="https://twitter.com">Contacto</a>
+			</div>
+		</div>
+	</footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
