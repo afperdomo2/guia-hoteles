@@ -10,11 +10,11 @@ footer{
 	background-color: yellow;
 	margin-bottom: 0px;
 }
-.card-hotel{
-	flex: 1 150px;
-	padding: 2px 12px 2px 12px;
+/* .card-hotel{
+	flex: 1 200px;
 	margin-bottom: 10px;
-}
+} */
 .btn-reserva{
 	width: 100%;
+	border-radius: 0px;
 }
