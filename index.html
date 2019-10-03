@@ -110,6 +110,7 @@
 					<h5 class="card-title">Hotel México</h5>
 					<h6 class="card-subtitle text-muted mb-2">México</h6>
 					<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae soluta ad consectetur cum, tempora.</p>
+					<button type="button" class="btn btn-outline-success btn-sm" data-toggle="modal" data-target="#modal_contacto"><span class="oi oi-person"></span> Contacto</button>
 				</div>
 				<div>
 					<a class="btn btn-info btn-reserva" href="https://www.masaya-experience.com/san-agustin/" target="_blank">Reservar</a>
@@ -160,6 +161,35 @@
 				</div>
 			</div>
 		</div>
+		<!-- Modal -->
+		<div class="modal fade" id="modal_contacto" tabindex="-1" role="dialog" aria-labelledby="modal_contactoLabel" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="modal_contactoLabel">Contacto con el Hotel</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<form action="">
+							<div class="form-group">
+								<label for="contacto_email" class="col-form-label">Tu email:</label>
+								<input type="text" class="form-control" id="contacto_email">
+							</div>
+							<div class="form-group">
+								<label for="modal_mensaje" class="col-form-label">Mensaje:</label>
+								<textarea name="" id="modal_mensaje" class="form-control" cols="30" rows="3"></textarea>
+							</div>
+						</form>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-success" data-dismiss="modal"><span class="oi oi-location"></span> Enviar mensaje</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Modal -->
 	</div>
 	<footer class="mt-2 bg-light border">
 		<div class="row col-md-12">
