@@ -1,0 +1,17 @@
+body {
+  margin-top: 55px;
+  margin-bottom: 0px; }
+
+.jumbotron {
+  color: white;
+  text-shadow: 0.1em 0.1em 0.2em gray;
+  background-color: #1ea67b; }
+
+footer {
+  padding: 10px 10px 0 10px;
+  background-color: #e6ede8;
+  margin-bottom: 0px; }
+
+.btn-reserva {
+  width: 100%;
+  border-radius: 0px; }
