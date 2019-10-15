@@ -1,0 +1,25 @@
+@yellow: #f5c842;
+@green:  #1ea67b;
+@silver: #e6ede8;
+.margenes(@top,@bottom:0px){
+	margin-top:    @top;
+	margin-bottom: @bottom;
+}
+body{
+	.margenes(55px,0px);
+}
+.jumbotron{
+	//background-image: url("../images/banner.jpg");
+	color:white;
+	text-shadow: 0.1em 0.1em 0.2em gray;
+	background-color: @green;
+}
+footer{
+	padding: 10px 10px 0 10px;
+	background-color: @silver;
+	margin-bottom: 0px;
+}
+.btn-reserva{
+	width: 100%;
+	border-radius: 0px;
+}
